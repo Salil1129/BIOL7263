@@ -4,3 +4,7 @@ This is the home for all of my work for my favorite class!
 
 # Here are my notes from:
 # [Day 1](https://github.com/Salil1129/Example29Aug24/blob/main/Scripts/template.sbatch.sh)
+
+Class presentation
+# [Class presentation] (Class presentation/Salil Jindal's Research proposal.pdf)
+
