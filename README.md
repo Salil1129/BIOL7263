@@ -3,8 +3,11 @@
 This is the home for all of my work for my favorite class!
 
 # Here are my notes from:
-# [Day 1](https://github.com/Salil1129/Example29Aug24/blob/main/Scripts/template.sbatch.sh)
+
+ [Day 1](https://github.com/Salil1129/Example29Aug24/blob/main/Scripts/template.sbatch.sh)
 
 
-## 
+## Scripts
 
+
+[Proposal](https://github.com/Salil1129/BIOL7263/tree/main/class_presentation)
