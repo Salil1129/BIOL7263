@@ -10,4 +10,12 @@ This is the home for all of my work for my favorite class!
 ## Scripts
 
 
-[Proposal](https://github.com/Salil1129/BIOL7263/tree/main/class_presentation)
+[Proposal](https://github.com/Salil1129/BIOL7263/blob/main/class_presentation/Salil%20Jindal's%20Research%20proposal.pdf)
+
+
+
+
+
+
+
+
