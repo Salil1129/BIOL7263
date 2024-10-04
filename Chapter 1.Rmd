@@ -1,0 +1,75 @@
+---
+title: "Chapter 1"
+author: "Salil jindal"
+date: "2024-10-04"
+output: word_document
+---
+
+## To login in the OSCER
+
+```bach 
+ssh biol726306@schooner.oscer.ou.edu
+```
+## To access software through the environment: (This needs to be done only once)
+
+```bach
+module load Mamba
+
+mamba init
+```
+## To activate the environment: (Everytime you start wokring)
+
+```bach
+mamba activate /home/mbtoomey/.conda/envs/BIOL7263_Genomics
+```
+## To retrieve sequence data:
+### We can use wget command to retrieve data from NCBI, EBI or any other databse. Here we will download raw data of ecoli:
+
+```bach
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR857/SRR857279/SRR857279_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR857/SRR857279/SRR857279_2.fastq.gz
+```
+## To prevent accidental deletion of files, we can make the files read-only using:
+
+```bach
+chmod 444 *.gz
+```
+This command changes the permissions of all files in the current directory that have a .gz extension (which typically indicates Gzip-compressed files) to read-only for everyone.
+
+In similar fashion, sequence data of pseudomonas was retrieved.
+
+```bach
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR491/SRR491287/SRR491287_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR491/SRR491287/SRR491287_2.fastq.gz
+```
+
+## To get reference data:
+Again, using the 'wget':mag: command we can download files directly from the web to our local dicrectory. The files are 'gzipped', this means they are compressed to save space, it also allows us to make sure the data has not been corrupted during the transfer. We will also need to unzip them with the program 'gunzip':mag
+
+```bach
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz
+```
+## To unzip .gz files:
+
+```bach
+gunzip ecoli/*.gz
+```
+
+# Change write permissions, so that we can't edit them by accident
+chmod -R 444 ecoli/*.fna
+chmod -R 444 ecoli/*.gff
+
+## To create database (pfam):
+We need to download the HMMs and .dat files for Pfam-A
+
+```bach
+wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
+wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.dat.gz
+wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/active_site.dat.gz
+```
+Once downloaded, we can unzip the files using gunzip command.
+
+## For more information:
+https://github.com/mbtoomey/genomics_adventure/blob/release/home.md
+
