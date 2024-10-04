@@ -15,7 +15,7 @@ This is the home for all of my work for my favorite class!
 
 ## Chapter 1 notes
 
-[Chapter 1] (https://github.com/Salil1129/BIOL7263/blob/main/Chapter-1.docx)
+ [Chapter 1](https://github.com/Salil1129/BIOL7263/blob/main/Chapter-1.docx)
 
 
 
