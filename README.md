@@ -15,12 +15,14 @@ This is the home for all of my work for my favorite class!
 
 ## Chapter 1 notes
 
- [Chapter 1](https://github.com/Salil1129/BIOL7263/blob/main/Chapter-1.docx)
+ [Chapter 1](https://github.com/Salil1129/BIOL7263/blob/main/Chapter%201.Rmd)
 
 ## fastqc files
 
 [ecoli_fastqc.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/fastqc/ecoli_fastqc.sbatch)
+
 [ecoli_fastqc.sh](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/fastqc/ecoli_fastqc.sh)
+
 
 
 

@@ -2,7 +2,7 @@
 title: "Chapter 1"
 author: "Salil jindal"
 date: "2024-10-04"
-output: word_document
+output: html_document
 ---
 
 ## To login in the OSCER
