@@ -81,7 +81,7 @@ This is the home for all of my work for my favorite class!
 
 [qualimap.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/BWA/qualimap.sbatch)
 
-##Automated Variant Calling
+## Automated Variant Calling
 
 [ecoli_vf.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/bcf/ecoli_vcf.sbatch)
 
