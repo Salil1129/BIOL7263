@@ -103,6 +103,52 @@ This is the home for all of my work for my favorite class!
 
 [ecoli_cover.sh](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/bcf/ecoli_cover.sh)
 
+## To convert bam to fastq file
+
+[bam_to_fasta.sh](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/bam_to_fasta.sh)
+
+[bam_to_fasta](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/bam_to_fasta.sbatch)
+
+## QC for the fastq files
+
+[fastq_fastqc.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/fastq_fastqc.sbatch)
+
+[fastq_fastqc.sh](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/fastq_fastqc.sh)
+
+## De-novo Assembly
+
+[unmapped_spades.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_spades.sbatch)
+
+[unmapped_spades.sh](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_spades.sh)
+
+## Assesment of Assemblies
+
+[unmapped_quast.sh](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_quast.sh)
+
+[unmapped_quast.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_quast.sbatch)
+
+## Obtain Open Reading Frames
+
+[unmapped_orf.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_orf.sbatch)
+
+[unmapped_orf.sh](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_orf.sh)
+
+## Alignment of unmapped contigs to the reference genome
+
+[unmapped_blastn.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_blastn.sbatch)
+
+[unmapped_blastn.sh](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_blastn.sh)
+
+##Run Open Reading Frames Through pfam_scan
+
+[unmapped_pfam.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_pfam.sbatch)
+
+[unmapped_pfam.sh](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_pfam.sh)
+
+
+
+
+
 
 
 
