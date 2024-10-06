@@ -139,7 +139,7 @@ This is the home for all of my work for my favorite class!
 
 [unmapped_blastn.sh](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_blastn.sh)
 
-##Run Open Reading Frames Through pfam_scan
+## Run Open Reading Frames Through pfam_scan
 
 [unmapped_pfam.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_pfam.sbatch)
 
