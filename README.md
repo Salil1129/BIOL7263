@@ -145,7 +145,119 @@ This is the home for all of my work for my favorite class!
 
 [unmapped_pfam.sh](https://github.com/Salil1129/BIOL7263/blob/main/Scripts/unmapped/unmapped_pfam.sh)
 
+## De novo Assembly Using Short Reads
 
+[fullspades.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/full_spades.sh)
+
+[fullspades.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/full_spades.sbatch)
+
+## Checking the Assembly
+
+[quast.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/quast.sh)
+
+[quast.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/quast.sbatch)
+
+## Index the contigs
+
+[reads_index.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/reads_index.sh)
+
+[reads_index/sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/reads_index.sbatch)
+
+## align QC reads to contigs and output SAM file
+
+[mapping.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/mapping.sh)
+
+[mapping.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/mapping.sbatch)
+
+## convert the SAM file to a BAM file
+
+[sam_tobam.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/sam_tobam.sh)
+
+[sam_tobam.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/sam_tobam.sbatch)
+
+## sort the BAM file
+
+[bam_sort.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/bam_sort.sh)
+
+[bam_sort.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/bam_sort.sbatch)
+
+## Index BAM
+
+[index_bam.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/index_bam.sh)
+
+[index_bam.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/index_bam.sbatch)
+
+## Mapping statstistics
+
+[qualimap.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/qualimap.sh)
+
+[qualimap.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/qualimap.sbatch)
+
+## BLAST search
+
+[blast.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/qualimap.sbatch)
+
+[blast.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/blast.sbatch)
+
+## Annotation of de novo Assembled Contigs
+
+[orfipy.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/orfipy.sh)
+
+[orfipy.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/orfipy.sbatch)
+
+[pfam.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/pfam.sh)
+
+[pfam.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/pfam.sbatch)
+
+[blastp.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/blast_p.sh)
+
+[blastp.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter4/blast_p.sbatch)
+
+## Hybrid de novo Assembly
+
+## QC the data
+
+[pseudo_fastqc.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/pseudo_fastqc.sh)
+
+[pseudo_fastqc.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/pseudo_fastqc.sbatch)
+
+## Trim the Reads
+
+[pseudo_trim.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/pseudo_trim.sh)
+
+[pseudo_trim.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/pseudo_trim.sbatch)
+
+## Assembly
+
+[pseudo_short_assembly](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/pseud_short_assembly.sh)
+
+[pseudo_short_assembly.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/pseud_short_assembly.sbatch)
+
+## Hybrid Assembly
+
+[pseudo_long_assembly.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/pseudo_long_assembly.sh)
+
+[pseudo_long_assembly.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/pseudo_long_assembly.sbatch)
+
+## Align Reads Back to Reference
+
+## Index the BAM file
+
+[index_bam.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/index_bam.sh)
+
+[index_bam.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/index_bam.sbatch)
+
+## Mapping the Illumina reads
+
+[illumina_map.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/illumina_map.sh)
+
+[illumina_map.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/illumina_map.sbatch)
+
+## Mapping the PacBio data to the assembly
+
+[pacbio_map.sh](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/pacbio_map.sh)
+
+[pacbio_map.sbatch](https://github.com/Salil1129/BIOL7263/blob/main/Chapter5/pacbio_map.sbatch)
 
 
 
