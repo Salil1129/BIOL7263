@@ -1,10 +1,3 @@
----
-title: "Class presentation"
-author: "Salil jindal"
-date: "2024-10-04"
-output: word_document
----
-
 1. HTS data of a pooled tomato sample was downloaded into the scratch/biol726306/project directory using winscp (AR008_B)
 
 2. The environment was activated using:
