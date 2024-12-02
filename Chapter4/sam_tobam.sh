@@ -1,0 +1,1 @@
+samtools view -bS /scratch/biol726306/BIOL7263_Genomics/sequencing_data/ecoli/assembly/mapping_to_assembly/contigs_mapped.sam >  /scratch/biol726306/BIOL7263_Genomics/sequencing_data/ecoli/assembly/mapping_to_assembly/contigs_mapped.bam

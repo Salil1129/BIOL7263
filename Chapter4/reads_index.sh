@@ -1,0 +1,1 @@
+bwa index /scratch/biol726306/BIOL7263_Genomics/sequencing_data/ecoli/assembly/contigs.fasta
