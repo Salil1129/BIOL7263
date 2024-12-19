@@ -1,0 +1,1 @@
+samtools view -b -f 12 /scratch/biol726306/Project/sort_bam/dup_removal_project_markdup.bam -o /scratch/biol726306/Project/unmapped_assembly/unmapped.bam

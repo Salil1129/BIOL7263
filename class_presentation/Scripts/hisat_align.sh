@@ -1,0 +1,1 @@
+hisat2 -x /home/biol726306/project/reference_genome/index_basename -1 /scratch/biol726306/Project/read_1.fastq.gz -2 /scratch/biol726306/Project/read_2.fastq.gz -S /scratch/biol726306/Project/project_output.sam

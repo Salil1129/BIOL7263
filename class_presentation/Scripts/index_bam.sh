@@ -1,0 +1,1 @@
+samtools index /scratch/biol726306/Project/sort_bam/dup_removal_project_markdup.bam

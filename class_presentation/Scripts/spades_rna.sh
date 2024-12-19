@@ -1,0 +1,1 @@
+spades.py --rna -t 20 -m 80 -o /scratch/biol726306/Project/unmapped_assembly/spades_rna_assembly -1 /scratch/biol726306/Project/unmapped_assembly/unmapped_r1.fastq -2 /scratch/biol726306/Project/unmapped_assembly/unmapped_r2.fastq
